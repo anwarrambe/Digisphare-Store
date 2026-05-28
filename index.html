@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Pribadi Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>🛒 Toko Pribadi Saya</h1>
+      <div id="cart-icon">Keranjang (<span id="cart-count">0</span>)</div>
+    </div>
+  </header>
+
+  <main class="container" id="products">
+    <!-- Produk akan dimuat di sini -->
+  </main>
+
+  <!-- Modal Keranjang -->
+  <div id="cart-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Keranjang Belanja</h2>
+      <ul id="cart-items"></ul>
+      <p class="total-text">Total: Rp <span id="cart-total">0</span></p>
+      <button id="checkout-btn">Pesan via WhatsApp</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
